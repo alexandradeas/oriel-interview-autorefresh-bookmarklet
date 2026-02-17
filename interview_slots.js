@@ -1,4 +1,5 @@
-javascript:(function() {
+'use strict';
+(function() {
 	document.addEventListener('DOMContentLoaded', function() {
 		const delay = 5000; // ms
 		const beepFile = "https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3";

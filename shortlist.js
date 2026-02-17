@@ -1,7 +1,7 @@
-javascript:(function() {
+'use strict';
+(function() {
 	document.addEventListener('DOMContentLoaded', function() {
 		const delay = 5000; // ms
-		const shortlistText = "SHORTLIST PENDING"
 		const beepFile = "https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3";
 		const beep = new Audio(beepFile);
 		setTimeout(function() {
